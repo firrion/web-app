@@ -1,2 +1,2 @@
 before_build:
-  - nuget restore
+  - cd WebApp; nuget restore
