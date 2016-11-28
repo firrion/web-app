@@ -1,2 +1,3 @@
 before_build:
+  - cd C:\projects\web-app\WebApp
   - nuget restore
