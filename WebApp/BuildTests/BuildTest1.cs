@@ -13,7 +13,7 @@ namespace BuildTests
         public void Test1()
         {
             var result = (ViewResult)homeController.Index();
-            Assert.AreEqual("Index", result.ViewName);
+            Assert.AreEqual("", result.ViewName);
         }
     }
 }
