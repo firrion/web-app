@@ -15,5 +15,6 @@ namespace BuildTests
             var result = (ViewResult)homeController.Index();
             Assert.AreEqual("", result.ViewName);
         }
+
     }
 }
